@@ -9,7 +9,7 @@ python python/main.py <in.csv> <out.csv> <tags>
 ```
 
 - in.csv: a csv with header lat,lon,radius
-- out.csv: output csv (same format as in.csv but with addition column 'result')
+- out.csv: output csv (same format as in.csv but with additional column 'result')
 - tags: a file with a single OSM tag per line. The tags will be used for the search query.
 
 Example in.csv file:
